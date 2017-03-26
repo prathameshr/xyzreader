@@ -10,8 +10,9 @@
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
         android:background="?colorPrimary"
-        android:elevation="8dp"
+        android:elevation="4dp"
         android:layout_width="match_parent"
+        app:layout_scrollFlags="scroll|enterAlways"
         android:id="@+id/appbar">
 
         <android.support.v7.widget.Toolbar
